@@ -107,29 +107,26 @@ class DrumMachine extends React.Component {
 
         return (
             <div className="container" id="drum-machine">
-             <div className= "inner-container">
-            <p id="display">{this.state.display}</p>
-                <div className = "workings">
-                    <div className="inline">
-                        <input type="range" min="1" max="100" value={this.state.volume} onChange={this.updateVolume}  />
-                        <p>{this.state.volume}</p>
-                    </div>
-                    <label className="inline-b">
-                        <input type="checkbox" onClick={this.updatePower} id="powerButton" />
-                      <span className="slider round"></span>
-                        <p>{this.state.powerOn}</p>             
-                    </label>
-                </div>
-            
-                <div id="inner">
-                    {newArr}
-                </div>
-            </div>
 
-            <div className="footer">
-        <p> Tolu Adegboyega 2020 </p>
-        </div>
-        
+                <div className= "inner-container">
+                    <p id="display">{this.state.display}</p>
+                        <div className = "workings">
+                            <div className="inline">
+                                <input type="range" min="1" max="100" value={this.state.volume} onChange={this.updateVolume}  />
+                                <p>{this.state.volume}</p>
+                            </div>
+                            <label className="inline-b">
+                                <input type="checkbox" onClick={this.updatePower} id="powerButton" />
+                            <span className="slider round"></span>
+                                <p>{this.state.powerOn}</p>             
+                            </label>
+                        </div>
+                    
+                        <div id="inner">
+                            {newArr}
+                        </div>
+                </div>
+
             </div>
         )  
     }

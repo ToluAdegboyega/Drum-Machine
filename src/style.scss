@@ -19,7 +19,6 @@ body {
   background-color: bisque;
   border-radius: 25px;
   padding: 50px;
-  height: 100vh;
 }
 
 #display {
@@ -56,13 +55,6 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
  
-}
-
-.footer {
-  display: flex;
-  padding-bottom: 0;
-  justify-content: center;
-  text-align: center;
 }
 
 .drum-pad {
