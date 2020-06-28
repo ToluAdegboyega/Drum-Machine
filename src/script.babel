@@ -168,4 +168,14 @@ class DrumPad extends React.Component {
     }
 }
 
+class footer extends React.Component {
+    render() {
+      return (
+        <div className="footer">
+        <p> Tolu Adegboyega 2020 </p>
+        </div>
+      );
+    }
+  }
+
 ReactDOM.render(<App />, document.getElementById('drum-container'));
