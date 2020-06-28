@@ -19,7 +19,7 @@ body {
 .inner-container {
   background-color: bisque;
   border-radius: 25px;
-  padding: 50px 0px 50px 0px;
+  padding: 50px;
 }
 
 #display {
@@ -150,6 +150,12 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+@media  only screen and (max-width: 350px) {
+  .inner-container {
+    padding: 50px 0px 50px 0px;
+  }
 }
 
 
