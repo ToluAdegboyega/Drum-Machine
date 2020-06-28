@@ -161,6 +161,10 @@ input:checked + .slider:before {
     padding: 20px 5px 20px 5px;
   }
 
+  .inner-container p {
+    padding: 0px;
+  }
+
   .drum-pad p {
     margin-top: 10px;
     margin-bottom: 10px;
