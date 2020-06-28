@@ -171,8 +171,8 @@ input:checked + .slider:before {
     padding-left: 0px;
     font-size: 20px;
     width: 200px;
-    display: grid;
-    justify-self: center;
+    display: flex;
+    justify-content: center;
   }
 }
 
