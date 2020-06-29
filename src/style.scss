@@ -160,13 +160,11 @@ input:checked + .slider:before {
 
 @media  only screen and (max-width: 400px) {
   body {
-    display: grid;
-    justify-items: center;
-    padding: 50px 15px 0px 15px;
+    padding: 30px 15px 30px 15px;
   }
 
   .inner-container {
-    padding: 1px 1px 1px 1px;
+    padding: 5px 5px 5px 5px;
   
   }
 
