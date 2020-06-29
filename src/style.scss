@@ -8,9 +8,12 @@ body {
   background-size: cover;
   font-family: 'Comic Neue', cursive;
   padding: 50px;
-  width: auto;
 }
 //background-color: #d6ad8a;
+
+#drum-container {
+  max-width: 75%;
+}
 
 .container {
   display: grid;
