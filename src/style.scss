@@ -2,7 +2,7 @@
 
 
 body {
-  background: url(..src\music-background_1035-560.jpg);
+  background: url(../src/music-background_1035-560.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-size: cover;
@@ -152,6 +152,7 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
 
 @media  only screen and (max-width: 400px) {
   body {
