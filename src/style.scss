@@ -56,8 +56,6 @@ body {
 #inner {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
- 
 }
 
 .drum-pad {
@@ -160,6 +158,10 @@ input:checked + .slider:before {
 
   .inner-container {
     padding: 10px 10px 10px 10px;
+  }
+
+  #inner {
+    justify-items: center;
   }
 
   .drum-pad {
